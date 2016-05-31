@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nP6-rX-qb7" customClass="IBView">
+                                <rect key="frame" x="42" y="198" width="248" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="下一个.png"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="图2"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bwidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bcolor">
+                                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7JZ-So-x3q" customClass="IBView">
+                                <rect key="frame" x="42" y="62" width="248" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="图1"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bwidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bcolor">
+                                        <color key="value" red="1" green="0.3803921569" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9A-Lv-0MD" customClass="IBView">
+                                <rect key="frame" x="42" y="334" width="248" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="下一个.png"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="图3"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bcolor">
+                                        <color key="value" red="0.17693892550000001" green="0.32698934330000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bwidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonTitle" value="123"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="n9A-Lv-0MD" secondAttribute="bottom" constant="106" id="0j8-n3-CdS"/>
+                            <constraint firstItem="nP6-rX-qb7" firstAttribute="height" secondItem="7JZ-So-x3q" secondAttribute="height" id="3eI-20-ae5"/>
+                            <constraint firstItem="7JZ-So-x3q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="26" id="8qy-OH-yaT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nP6-rX-qb7" secondAttribute="trailing" constant="14" id="9Bw-T2-ibf"/>
+                            <constraint firstItem="n9A-Lv-0MD" firstAttribute="top" secondItem="nP6-rX-qb7" secondAttribute="bottom" constant="8" id="9aM-lV-2rf"/>
+                            <constraint firstItem="n9A-Lv-0MD" firstAttribute="width" secondItem="7JZ-So-x3q" secondAttribute="width" id="FiV-TK-LlG"/>
+                            <constraint firstItem="nP6-rX-qb7" firstAttribute="width" secondItem="7JZ-So-x3q" secondAttribute="width" id="HJc-kh-kQS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7JZ-So-x3q" secondAttribute="trailing" constant="14" id="JA7-ZK-nA9"/>
+                            <constraint firstItem="nP6-rX-qb7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="26" id="cje-yl-SNN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n9A-Lv-0MD" secondAttribute="trailing" constant="14" id="eeZ-Qg-5w1"/>
+                            <constraint firstItem="n9A-Lv-0MD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="26" id="f4k-fc-Zlk"/>
+                            <constraint firstItem="n9A-Lv-0MD" firstAttribute="height" secondItem="7JZ-So-x3q" secondAttribute="height" id="p12-YZ-jRr"/>
+                            <constraint firstItem="7JZ-So-x3q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="sDW-c4-SFV"/>
+                            <constraint firstItem="nP6-rX-qb7" firstAttribute="top" secondItem="7JZ-So-x3q" secondAttribute="bottom" constant="8" id="z5o-z3-HNX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="334"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="下一个.png" width="200" height="200"/>
+    </resources>
+</document>
